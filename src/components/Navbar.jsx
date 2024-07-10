@@ -15,7 +15,7 @@ export default function Navbar() {
             <div className="bg-[#222831] shadow-2xl fixed top-0 left-0 w-full">
                 <div className=' md:flex md:justify-between md:items-center border-b-2 py-4 px-6 md:px-20 lg:px-52 text-white transition-all font-Pop font-light '>
                     <div className="text-2xl font-medium ">
-                        Bobo
+                        RSumpay
                     </div>
                     <div className="absolute top-4 right-4 md:hidden " onClick={() => setMenuOpen(!menuOpen)}>
                         {menuOpen ? <IoMdClose className="text-3xl " /> : <IoMdMenu className="text-3xl " />}
