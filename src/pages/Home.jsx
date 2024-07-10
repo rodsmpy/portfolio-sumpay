@@ -212,7 +212,7 @@ export default function Home() {
                 <div>
                     <p className='text-center text-5xl text-[#00ADB5] font-medium' >Portfolio </p>
                 </div>
-                <div className='flex gap-x-40 justify-center mt-14'>
+                <div className='flex gap-x-32 justify-center mt-14'>
                     <span className={` font-medium text-lg cursor-pointer  text-[#00ADB5] p-2 rounded-lg ${showPortfolio === 1 ? ' underline decoration-2 underline-offset-8 decoration-[#00ADB5]' : ''}`} onClick={() => setShowPortfolio(1)}>Web Designs</span>
                     <span className={`font-medium text-lg cursor-pointer  text-[#00ADB5] p-2 rounded-lg ${showPortfolio === 2 ? 'underline decoration-2 underline-offset-8 decoration-[#00ADB5]' : ''}`} onClick={() => setShowPortfolio(2)} >Websites</span>
 
@@ -318,7 +318,7 @@ export default function Home() {
 
             <div className=' mt-44 font-Pop flex flex-col items-center text-[#393E46]' id='contact-section'>
                 <p className=' text-center text-5xl text-[#00ADB5] font-medium  '>Contact Me</p>
-                <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-11 mt-14 min-w-96 md:w-1/3'>
+                <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-11 mt-14 min-w-96 md:w-1/3 px-2'>
                     <div>
                         <input type="text" name='from_name' placeholder='Name:' className='border-2 p-2 w-full rounded-md' />
                     </div>
