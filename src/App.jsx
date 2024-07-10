@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <Router>
+        <h1>tanginamo</h1>
         <Navbar/>
         
 
