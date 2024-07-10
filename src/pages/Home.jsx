@@ -69,7 +69,8 @@ export default function Home() {
     
     return (
         <>
-            <div className='mt-20 md:flex transition-all font-Pop' id='welcome-section'>
+            <div>
+                <div className='mt-20 md:flex transition-all font-Pop' id='welcome-section'>
                 <div className='p-2 pt-6 flex flex-col md:pt-44 md:pl-12 lg:pl-40 lg:pt-44 items-center md:items-start lg:w-1/2 transition-all '>
                     <div className=' md:p-10 flex flex-col items-center md:items-start '>
                         <p className='text-4xl text-[#00ADB5]  lg:text-7xl font-medium tracking-wide'>Hello, Welcome</p>
@@ -369,6 +370,10 @@ export default function Home() {
 
 
             </div>
+            
+            
+            </div>
+            
 
         </>
     )
