@@ -383,7 +383,7 @@ export default function Home() {
 <div className=' lg:w-1/2 lg:pt-48 lg:pl-0'>
     <p className="text-4xl text-[#76ABAE] font-medium md:text-5xl">Hello, Welcome</p>
     <p className="text-2xl pt-2 text-[#31363F] md:text-3xl">I am Rodney Sumpay</p>
-    <p className="pt-2 text-center md:text-left">I am excited to start my journey in the world of technology. My goal is to use my knowledge and skills to make a positive impact, solve difficult problems, and keep learning and improving as a professional.</p>
+    <p className="pt-2 text-center md:text-left">I am excited to start my journey in the world of technology. My goal is to use my knowledge and skills to make a positive impact, solve difficult problems, and keep learning and improving as a professional..</p>
 </div>
 <div className='mr-7 w-80 h-80 mt-4 rounded-full overflow-hidden bg-black md:mt-14 md:w-96 md:h-96 md:ml-44 transition-all lg:ml-36 '>
     <img src={profilepic} alt=""/>
